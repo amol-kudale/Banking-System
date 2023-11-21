@@ -15,7 +15,7 @@ const username = process.env.MONGO_DB_USERNAME;
 const password = process.env.MONGO_DB_PASSWORD;
 
 mongoose.connect(
-  `mongodb+srv://admin-${username}:${password}@cluster0.rnlqkcn.mongodb.net/?retryWrites=true&w=majority`
+  `mongodb+srv://amol:Test123@cluster0.0qm4ckw.mongodb.net/?retryWrites=true&w=majority`
 );
 
 app.get("/", (req, res) => {
